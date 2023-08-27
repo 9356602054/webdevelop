@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+<TABLE>
+    <colgroup>
+        <col span="1" style="background-color:red;">
+        <col span="1">
+        <col span="1" style="background-color: blue;">
+        <col span="1" style="visibility: collapse;">
+        <col span="1">
+    </colgroup>
+    <thead>
+        <tr>
+            <th rowspan="3">day</th>
+            <th colspan="3">seminar</th>
+        </tr>
+        <tr>
+            <th COLSPAN="2">scheduling</th>
+            <th rowspan="2">topic</th>
+        </tr>
+        <tr>
+            <th>begin</th>
+            <th>end</th>
+        </tr>
+    </thead>
+    <tbody>
+        <t>
+            <td rowspan="2">monday</td>
+            <td rowspan="2">8.30</td>
+            <td rowspan="2">5.30</td>
+            <td>introduction to XML</td>
+
+            
+        </t>
+        <TR>
+    
+            <td>validity DTD and relax NG</td>
+        </TR>
+        <tr>
+            <td rowspan="3">tuesday</td>
+            <td>08.30</td>
+            <td>11.00</td>
+            <td>X path</td>
+        </tr>
+      
+        <td>11.30</td>
+        <td>02.30</td>
+        <td rowspan="2">XSI Transformation</td>
+    
+
+        <tr>
+            <td>11.30</td>
+            <td>02.30</td>
+      
+        </tr>
+        <td>wednesday</td>
+        <td>08.30</td>
+        <td>12.30</td>
+        <td>XSI Transformation</td>
+
+        
+    </tbody>
+</TABLE>
+
+</body>
+</html>
