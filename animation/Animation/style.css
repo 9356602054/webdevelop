@@ -1,0 +1,21 @@
+:root{
+  --dark-red:#981a2c;
+
+}
+
+.container{
+    border: 1px solid brown;
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    background-color: var(--dark-red);
+}
+
+
+.box{
+  background-color: aqua;
+  border:1px solid rgb(0, 255, 136);
+  --dark-red:#981a2c;
+  color:var(--dark-red)
+
+}
